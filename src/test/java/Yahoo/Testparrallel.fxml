@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+        -<suite parallel="none" name="Automation Suite">
+
+
+    -<test name="Chrome Testing">
+
+    <parameter name="browser" value="GoogleChrome"/>
+
+
+    -<classes>
+
+    <class name="TestSuite.Ecommerce_Test"/>
+
+</classes>
+
+</test>
+
+    <!--<test name="Firefox Testing"><parameter name="browser" value="firefox" /><classes><class name="TestSuite.Ecommerce_Test" /></classes></test>-->
+
+
+</suite>
